@@ -71,6 +71,8 @@ static NSString *const ext_key__version_deprecated = @"version";
 		NSString *versionTag = parentConnection->parent->versionTag;
 		[self setStringValue:versionTag forExtensionKey:ext_key__versionTag persistent:YES];
         
+        NSString *ftsVersion = parentConnection->parent->ftsVersion;
+        [self setStringValue:ftsVersion forExtensionKey:ext_key__ftsVersion persistent:YES];
 	}
 	else
 	{
