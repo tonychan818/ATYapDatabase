@@ -118,7 +118,6 @@ static NSString *const ext_key__version_deprecated = @"version";
 		}
         
         //always set the fts version
-        NSString *ftsVersion = parentConnection->parent->ftsVersion;
         [self setStringValue:ftsVersion forExtensionKey:ext_key__ftsVersion persistent:YES];
 	}
 	
