@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name         = "YapDatabase"
-  s.version      = "3.0.3"
+  s.name         = "ATYapDatabase"
+  s.version      = "3.0.4"
   s.summary      = "A key/value store built atop sqlite for iOS & Mac."
   s.homepage     = "https://github.com/yapstudios/YapDatabase"
   s.license      = 'MIT'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     "Robbie Hanson" => "robbiehanson@deusty.com"
   }
   s.source = {
-    :git => "https://github.com/yapstudios/YapDatabase.git",
+    :git => "https://github.com/tonychan818/ATYapDatabase",
     :tag => s.version.to_s
   }
 
